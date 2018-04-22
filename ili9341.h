@@ -13,3 +13,5 @@
 #else
 #error Please reconfigure CMake with -DADAFRUIT_ILI9341_PITFT=ON or -FREEPLAYTECH_WAVESHARE32B=ON (or contribute ports to more displays yourself)
 #endif
+
+#define DISPLAY_SCANLINE_SIZE (DISPLAY_WIDTH*DISPLAY_BYTESPERPIXEL)
